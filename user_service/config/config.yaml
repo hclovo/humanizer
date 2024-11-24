@@ -1,0 +1,23 @@
+server:
+  port: 8080
+auth:
+  jwt_secret: "your_jwt_secret"
+database:
+  driver: "mysql"
+  dsn: "root:Admin@123@tcp(47.97.244.133:3306)/user?charset=utf8mb4&parseTime=True&loc=Local"
+redis:
+  host: 47.97.244.133
+  port: 6379
+  password: ""
+  db: 0
+  pool_size: 10
+  pool_timeout: 30
+smtp:
+  host: smtp.qq.com
+  port: 465
+  sender: 2524120474@qq.com
+  password: pactklebfynadhhg
+supabase:
+  url: "https://qbfrwsdijwmfkxvfjtvy.supabase.co"
+  key: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFiZnJ3c2RpandtZmt4dmZqdHZ5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzIxNzk0MTgsImV4cCI6MjA0Nzc1NTQxOH0.ZVAvE_Rn7vaZfzqkqeMm4U_jJA32zEH3UxS4FVpEVYE"
+  project: "qbfrwsdijwmfkxvfjtv"
